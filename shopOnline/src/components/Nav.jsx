@@ -41,7 +41,7 @@ function Nav() {
 
         {/* Parte 6: ícono del carrito */}
         <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center text-2xl text-[#E86D87] cursor-pointer">
-          <Link to="/ShoppingCart">
+          <Link to="/cart">
             🛒
           </Link>
         </div>

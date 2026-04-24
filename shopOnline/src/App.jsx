@@ -9,12 +9,17 @@ import Plans from "./pages/plans";
 import Feedback from "./pages/Feedback";
 import Login from "./pages/Login";
 import Register from "./pages/CreateAcount";
-
+import Cart from "./pages/ShopingCart";
+import Domicilio from "./pages/Domicilio";
+import Delivery from "./pages/Delivery";
+import Payment from "./pages/payments";
+import LastPayment from "./pages/lastpayment";
 
 function AppContent() {
   const location = useLocation();
+
   const hideLayout =
-    location.pathname === "/Login" || location.pathname === "/register";
+    location.pathname === "/login" || location.pathname === "/register";
 
   return (
     <>
@@ -28,6 +33,11 @@ function AppContent() {
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/domicilio" element={<Domicilio />} />
+        <Route path="/delivery" element={<Delivery />} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/lastpayment" element={<LastPayment />} />
       </Routes>
 
       {!hideLayout && <Footer />}
