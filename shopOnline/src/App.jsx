@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/services";
-import Plans from "./pages/plans";
+import Promotions from "./pages/Promotions";
 import Feedback from "./pages/Feedback";
 import Login from "./pages/Login";
 import Register from "./pages/CreateAcount";
@@ -14,6 +14,7 @@ import Domicilio from "./pages/Domicilio";
 import Delivery from "./pages/Delivery";
 import Payment from "./pages/payments";
 import LastPayment from "./pages/lastpayment";
+import Pets from "./pages/Pets";
 
 function AppContent() {
   const location = useLocation();
@@ -29,7 +30,7 @@ function AppContent() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutUs" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/plans" element={<Plans />} />
+        <Route path="/promotions" element={<Promotions />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
@@ -38,6 +39,7 @@ function AppContent() {
         <Route path="/delivery" element={<Delivery />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/lastpayment" element={<LastPayment />} />
+        <Route path="/pets" element={<Pets />} />
       </Routes>
 
       {!hideLayout && <Footer />}
@@ -54,4 +56,3 @@ function App() {
 }
 
 export default App;
-//67

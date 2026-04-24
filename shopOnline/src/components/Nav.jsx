@@ -56,6 +56,10 @@ function Nav() {
           Mascotas
         </Link>
 
+        <Link to="/Pets" className="text-[#E86D87] text-base font-medium hover:text-[#c94f69] transition">
+          Categorias
+        </Link>
+
         <Link to="/feedback" className="text-[#E86D87] text-base font-medium hover:text-[#c94f69] transition">
           Reseñas
         </Link>
@@ -64,8 +68,8 @@ function Nav() {
           Servicios
         </Link>
 
-        <Link to="/plans" className="text-[#E86D87] text-base font-medium hover:text-[#c94f69] transition">
-          Categoria
+        <Link to="/Promotions" className="text-[#E86D87] text-base font-medium hover:text-[#c94f69] transition">
+          Promociones
         </Link>
 
         <Link to="/aboutUs" className="text-[#E86D87] text-base font-medium hover:text-[#c94f69] transition">
