@@ -60,7 +60,7 @@ function Nav() {
           Categorias
         </Link>
 
-        <Link to="/feedback" className="text-[#E86D87] text-base font-medium hover:text-[#c94f69] transition">
+        <Link to="/resenas" className="text-[#E86D87] text-base font-medium hover:text-[#c94f69] transition">
           Reseñas
         </Link>
 

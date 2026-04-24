@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/services";
 import Promotions from "./pages/Promotions";
-import Feedback from "./pages/Feedback";
 import Login from "./pages/Login";
 import Register from "./pages/CreateAcount";
 import Cart from "./pages/ShopingCart";
@@ -15,6 +14,7 @@ import Delivery from "./pages/Delivery";
 import Payment from "./pages/payments";
 import LastPayment from "./pages/lastpayment";
 import Pets from "./pages/Pets";
+import ResenasPage from "./pages/ResenasPage";
 
 function AppContent() {
   const location = useLocation();
@@ -31,7 +31,7 @@ function AppContent() {
         <Route path="/aboutUs" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/promotions" element={<Promotions />} />
-        <Route path="/feedback" element={<Feedback />} />
+        <Route path="/resenas" element={<ResenasPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/cart" element={<Cart />} />

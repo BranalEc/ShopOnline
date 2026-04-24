@@ -198,7 +198,7 @@ function Home() {
       <section className="px-16 mt-24 mb-12">
         <div className="w-full h-[220px] rounded-md overflow-hidden bg-[#f4d6df]">
           <img
-            src="/img/app-banner.png"
+            src="/assets/img/banneerpet.png"
             alt="Descarga la app"
             className="w-full h-full object-cover"
           />
